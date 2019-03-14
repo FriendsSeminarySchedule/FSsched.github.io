@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ <style type="text/css">
+    p, body, td { font-family: "Tahoma, Arial, Helvetica, sans-serif"; font-size: 10pt; }
+    body { padding-top: 10px; margin-top: 20px; margin-bottom:30px; margin-left: 80px; margin-right: 80px; background-color: #ffffff; }
+    .space { margin: 10px 0px 10px 0px; }
+    .header { background: white; padding:0px 0px; color: black; font-family: "Arial"; text-align: center; }
+    .header h1 a { text-decoration: none; }
+    .header h1 { padding: 0px; margin: 0px;}
+    .main { padding-top: 0px; }
+      h4 { color: #D7282F; margin:0px; padding:0px;}
+      h3 {color: seagreen; font-size: 10px; margin: 0px;}
+    .dropbtn {
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    font-size: 10px;
+    border: solid, black, 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #4E8CEF;
+    color: white;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 150px;
+    overflow: scroll;
+    z-index: 1;
+    font-size: 12px;
+    height: 600px;
+    text-align: left;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+    scroll-behavior: auto;
+}
+
+.dropdown a:hover {background-color: #4E8CEF;}
+
+.show {display: block;}
+
+.roomname {
+    font-family: "arial";
+    text-align: center;
+    text-decoration: underline;
+    background-color: whitesmoke;
+    border: 0.04px solid grey;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.roomname a {
+    text-decoration: none;
+}
+
+FS_ScheduleStyle_event_height { height: 25px; }
+
+  </style>
